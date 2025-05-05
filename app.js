@@ -35,7 +35,7 @@ function isAuthenticated(req, res, next) {
 }
 
 /** Kobler til SQLite-database */
-const db = new sqlite3.Database("minNyeDatabase.db", (err) => {
+const db = new sqlite3.Database("kaare.db", (err) => {
     if (err) {
         console.error("Feil ved tilkobling til database:", err.message);
     } else {

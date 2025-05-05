@@ -13,17 +13,38 @@ html {
 body {
     display: grid;
     grid-template-rows: 120px auto 120px;
-    min-height: 100vh;
+    min-height: 100vh
 }
 
 header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     background-color: #eaeaea;
 }
 
+.header-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: flex-end;
+    align-self: normal;
+    padding: 25px;
+}
+
 main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #fafafa;
 }
 
 footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #eaeaea;
 }
