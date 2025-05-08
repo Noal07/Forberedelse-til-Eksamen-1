@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="nb">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kursoversikt | Kurs 1</title>
+    <link rel="stylesheet" href="/style/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-top">
+        <div class="logo">
+          <a href="/">
+            <img src="/img/favicon.svg" height="75px" alt="Logo" />
+          </a>
+        </div>
+      </div>
+      <div class="header-bottom">
+        <a href="/">Hjem</a>
+        <a href="/kursoversikt">Kursoversikt</a>
+        <a href="/logout">Logg ut</a>
+      </div>
+    </header>
+    <main>
+      <div class="kurs-wrapper">
+        <h1>Kurs 1</h1>
+        <h2>Grunnleggende IT-sikkerhet for elever og ansatte</h2>
+        <p>
+          Dette kurset gir deg en solid innføring i grunnleggende IT-sikkerhet,
+          med fokus på hvordan du kan beskytte deg selv og skolens systemer mot
+          trusler på nett. Du vil lære hva som kjennetegner phishing, hvordan du
+          kan lage sterke og sikre passord, og hva du må passe på når du bruker
+          e-post, nettsider og digitale verktøy. Kurset tar også opp viktigheten
+          av totrinnsverifisering, hvordan man kan oppdage skadelig programvare,
+          og hva man bør gjøre hvis man tror man har blitt hacket. Vi går
+          gjennom eksempler fra virkeligheten, har gruppeoppgaver og avslutter
+          med en enkel test for å sjekke at du har fått med deg det viktigste.
+          Kurset krever ingen forkunnskaper og passer for både nybegynnere og
+          deg som bare trenger en oppfriskning. Målet er å gi deg trygghet i den
+          digitale hverdagen, både på skolen og hjemme.
+        </p>
+        <form method="post" action="/sign-up">
+          <input type="submit" value="Meld på">
+          <input type="hidden" value="1" name="kurs">
+        </form>
+      </div>
+    </main>
+    <footer>&copy; 2025 Kaars</footer>
+  </body>
+</html>
