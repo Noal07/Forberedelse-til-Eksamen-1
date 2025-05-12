@@ -65,9 +65,12 @@ main {
 .kurs-pick-design {
     background-color: white;
     padding: 10px;
+}
+
+.kurs-pick-design a {
     text-decoration: none;
     color: black;
-    cursor: pointer;
+    padding: 10px;
 }
 
 footer {
